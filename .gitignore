@@ -1,0 +1,14 @@
+# Never commit financial data — this repo is the tooling, not anyone's records.
+*.csv
+*.pdf
+*.PDF
+*.ofx
+*.qfx
+*.xlsx
+config.json
+!scripts/**/*.py
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
